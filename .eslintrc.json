@@ -1,0 +1,38 @@
+{
+  "env": {
+      "browser": true,
+      "es2021": true,
+      "jest/globals": true
+  },
+  "settings": {
+    "react": {
+      "version": "latest"
+    }
+  },
+  "extends": [
+      "plugin:react/recommended",
+      "plugin:prettier/recommended",
+      "standard",
+      "eslint:recommended"
+  ],
+  "parserOptions": {
+      "ecmaFeatures": {
+          "jsx": true
+      },
+      "ecmaVersion": 12,
+      "sourceType": "module"
+  },
+  "plugins": [
+      "react",
+      "prettier",
+      "eslint-plugin-jest"
+  ],
+  "rules": {
+    "prettier/prettier": "error",
+    "semi": 0,
+    "no-console": 2,
+    "react/react-in-jsx-scope": "off",
+    "react/prop-types":"off",
+    "space-before-function-paren": 0
+  }
+}

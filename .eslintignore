@@ -1,0 +1,5 @@
+.next
+public
+build
+./*.js
+next.config.js

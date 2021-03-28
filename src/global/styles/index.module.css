@@ -1,0 +1,31 @@
+.search {
+  width: 400px;
+  margin-top: 30px !important;
+}
+
+.downloadButton {
+  padding: 20px;
+  margin-top: 38px !important;
+  height: 40px;
+  margin-left: 20px !important;
+}
+
+.dropdownSearch {
+  width: 400px;
+  overflow: auto;
+  max-height: 320px;
+}
+
+.schoolAvatar {
+  background-color: transparent !important;
+}
+
+@media (max-width: 768px) {
+  .search {
+    width: 100%;
+  }
+  .downloadButton {
+    margin-left: 0px !important;
+    width: 100%;
+  }
+}

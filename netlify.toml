@@ -1,0 +1,5 @@
+[build]
+  publish = "dist"
+  command = "next build"
+  NODE_VERSION = "12.18.2"
+

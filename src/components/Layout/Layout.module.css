@@ -1,0 +1,17 @@
+.breadcrumb {
+  padding: 30px 40px;
+}
+
+.mainContainer {
+  padding: 0px 40px;
+  font-family: Open Sans, 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+}
+
+.header {
+  border-bottom: 1px solid #eaeaea;
+}
+
+.link {
+  text-decoration: none !important;
+  color: #4c55a5 !important;
+}

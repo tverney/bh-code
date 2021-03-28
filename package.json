@@ -1,0 +1,66 @@
+{
+  "name": "bh-code",
+  "version": "0.0.1",
+  "description": "This is an example coding exercise",
+  "main": "index.js",
+  "scripts": {
+    "build": "next build",
+    "build:analyze": "ANALYZE=true yarn build",
+    "start": "next start",
+    "dev": "next dev",
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "test:watch": "jest --watch",
+    "lint": "eslint --fix src/**/*",
+    "clean": "rm -rf build/ dist/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tverney/bh-code.git"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "tverney",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tverney/bh-code/issues"
+  },
+  "homepage": "https://github.com/tverney/bh-code#readme",
+  "dependencies": {
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/icons": "^4.11.2",
+    "babel-plugin-inline-react-svg": "^2.0.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "isomorphic-fetch": "^3.0.0",
+    "next": "^10.0.9",
+    "nprogress": "^0.2.0",
+    "pdfkit": "^0.11.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.10",
+    "@next/bundle-analyzer": "^10.0.9",
+    "@wojtekmaj/enzyme-adapter-react-17": "^0.4.1",
+    "arraybuffer-loader": "^1.0.8",
+    "babel-jest": "^26.6.3",
+    "brfs": "^2.0.2",
+    "enzyme": "^3.11.0",
+    "eslint": "^7.22.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jest": "^24.3.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-promise": "^4.3.1",
+    "eslint-plugin-react": "^7.22.0",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^26.6.3",
+    "prettier": "^2.2.1",
+    "raw-loader": "^4.0.2",
+    "transform-loader": "^0.2.4"
+  }
+}
